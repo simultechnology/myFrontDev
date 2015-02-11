@@ -1,0 +1,17 @@
+{
+  "name": "browserify-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "browser": {
+    "jquery": "bower_components/jquery/dist/jquery.js"
+  },
+  "dependencies": {
+    "async": "^0.9.0"
+  }
+}

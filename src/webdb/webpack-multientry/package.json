@@ -1,0 +1,16 @@
+{
+  "name": "webpack-sample",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahomu",
+  "license": "MIT",
+  "devDependencies": {
+    "es6-loader": "~0.2.0",
+    "webpack-traceur-loader": "~0.3.0",
+    "webpack": "~1.4.9"
+  }
+}

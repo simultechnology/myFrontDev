@@ -1,0 +1,16 @@
+{
+  "name": "browserify-gulp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp browserify"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "gulp": "^3.8.10",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}

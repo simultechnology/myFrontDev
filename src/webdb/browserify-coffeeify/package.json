@@ -1,0 +1,14 @@
+{
+  "name": "browserify-coffeeify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "scripts": {
+    "build": "browserify --transform coffeeify ./index.coffee > bundle.js"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "devDependencies": {
+    "coffeeify": "^1.0.0"
+  }
+}
